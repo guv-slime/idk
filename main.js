@@ -1,12 +1,11 @@
-//starting count
-//on button click
-//call ++ method
-//return count
-// tsting in fedora
+const idkButton = document.getElementById('idk-button');
+const idkCount = document.getElementById('idk-count');
+let counter = 0;
 
-let myButton = document.getElementById('idkButton');
-myButton.addEventListener('click', idkPlus);
+
+idkButton.addEventListener('click', idkPlus);
 
 function idkPlus(){
-    console.log('I LISTEN TO THE BUTTON');
+    counter++;
+    idkCount.innerText = counter;
 }
