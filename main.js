@@ -1,11 +1,9 @@
 const idkButton = document.getElementById('idk-button');
 const idkCount = document.getElementById('idk-count');
-let counter = 0;
-
+idkCount.innerText = 0;
 
 idkButton.addEventListener('click', idkPlus);
 
 function idkPlus(){
-    counter++;
-    idkCount.innerText = counter;
+    idkCount.innerText++;
 }
