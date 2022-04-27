@@ -1,0 +1,19 @@
+{
+  "name": "idk",
+  "version": "1.0.0",
+  "description": "Counts the amount of times I say idk during my stream.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guv-slime/idk.git"
+  },
+  "author": "Emory Hare",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guv-slime/idk/issues"
+  },
+  "homepage": "https://github.com/guv-slime/idk#readme"
+}
